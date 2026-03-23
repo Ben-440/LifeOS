@@ -1,0 +1,34 @@
+# Xcode
+build/
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+*.xcworkspace/*
+!*.xcworkspace/contents.xcworkspacedata
+DerivedData/
+.DS_Store
+xcuserdata/
+
+# Swift
+.build/
+.swiftpm/
+*.swiftpm/
+
+# iOS
+Pods/
+Podfile.lock
+
+# Backend
+backend/node_modules/
+backend/dist/
+backend/.env
+backend/finance_tracker.db
+backend/*.log
+
+# General
+*.log
+.env
+.env.local
+.env.*.local

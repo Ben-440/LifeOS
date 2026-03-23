@@ -1,0 +1,10 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Initialize Swift Package",
+			"type": "shell",
+			"command": "cd /Users/bengully/Desktop/Git/LifeOS && swift package init --type library --name FinanceTrackerCore"
+		}
+	]
+}
